@@ -1,0 +1,101 @@
+body, html {
+    font-family: 'Signika', sans-serif;
+    height: 100%;
+    margin: 0px;
+}
+
+p {
+    font-style: italic;
+    color: #80ccff;
+}
+
+h1 {
+    font-size: 70px;
+    font-style: italic;
+    color: #a4a4c1;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: italic;
+    font-family: auto;
+    margin-left: 20px;
+    color: #a4a4c1;
+}
+ul {
+    display: inline;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    margin-right: 20px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding-top: 5px;
+}
+
+hr {
+    width: 60%;
+    padding-top: 40px;
+    border-width: 0px;
+    border-bottom: 1px solid #d1d1e0;
+}
+
+.navbar {
+    background: rgba(0,0,0,0.2);
+    top: 0;
+    height: 50px;
+    color: white;
+    padding-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: sticky;
+}
+
+.nav-icon {
+    margin-right: 40px;
+    font-size: 200%;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.content {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.img{
+    background-image: url("../asset/background.jpg");
+    background-position: center;
+    background-color: rgba(0,0,0, 0.5);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.main-text{
+    text-align: left;
+    padding: 200px 0;
+}
+
+.row{
+    clear: left;
+    height: 200px;
+}
+
+.column{
+    float: left;
+    margin-right: 90px;
+}
+
+.ACG {
+    color: #ff6600;
+    line-height: 28px;
+}
