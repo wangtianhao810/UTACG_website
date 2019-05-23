@@ -6,3 +6,5 @@ the purpose is to Practice front end development skills, making different fronte
 designs for club websites from scratch.
 
 First one: https://lvuna.github.io/UTACG_website/ (currently Under construction!)
+showcase:
+![](asset/design/design1.png)

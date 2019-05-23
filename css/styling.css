@@ -13,7 +13,7 @@ h1 {
     font-size: 70px;
     font-style: italic;
     color: #a4a4c1;
-    margin-left: 200px;
+    margin-right: 200px;
     margin-bottom: 10px;
 }
 
@@ -21,7 +21,7 @@ h2 {
     font-size: 30px;
     font-style: italic;
     font-family: auto;
-    margin-left: 20px;
+    margin-right: 40px;
     color: #a4a4c1;
 }
 ul {
@@ -72,7 +72,7 @@ hr {
 }
 
 .img{
-    background-image: url("../asset/background.jpg");
+    background-image: url("../asset/background2.jpg");
     background-position: center;
     background-color: rgba(0,0,0, 0.5);
     background-size: cover;
@@ -81,7 +81,7 @@ hr {
 }
 
 .main-text{
-    text-align: left;
+    text-align: right;
     padding: 200px 0;
 }
 
