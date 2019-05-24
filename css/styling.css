@@ -10,15 +10,15 @@ p {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 4.2em;
     font-style: italic;
     color: #a4a4c1;
-    margin-right: 200px;
+    margin-right: 3em;
     margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 2em;
     font-style: italic;
     font-family: auto;
     margin-right: 40px;
@@ -34,7 +34,7 @@ li {
 
 li a {
     margin-right: 20px;
-    font-size: 22px;
+    font-size: 1.45em;
     text-decoration: none;
     color: white;
     float: right;
@@ -42,8 +42,9 @@ li a {
 }
 
 hr {
-    width: 60%;
-    padding-top: 40px;
+    width: 70%;
+    margin-left: 5%;
+    padding-top: 90px;
     border-width: 0px;
     border-bottom: 1px solid #d1d1e0;
 }
@@ -57,6 +58,19 @@ hr {
     margin-left: 5%;
     margin-right: 5%;
     position: sticky;
+    transition: 200ms linear;
+}
+
+.nav-colored {
+    background-color: #00001a;
+    padding-top: 0px;
+    height: 40px;
+    transition: 200ms linear;
+}
+
+.nav-transparent{
+    background-color: rgba(0,0,0,0.2);
+    transition: background-color 200ms linear;
 }
 
 .nav-icon {
@@ -64,6 +78,14 @@ hr {
     font-size: 200%;
     font-style: italic;
     margin-left: 10px;
+}
+
+.content_header {
+    width: 70%;
+    margin-left: 5%;
+    padding-top: 90px;
+    border-width: 0px;
+    border-bottom: 1px solid #d1d1e0;
 }
 
 .content {
@@ -98,4 +120,11 @@ hr {
 .ACG {
     color: #ff6600;
     line-height: 28px;
+}
+
+.right-bar {
+    float: right;
+    width: 25%;
+    text-align: center;
+    margin-top: 2%;
 }
