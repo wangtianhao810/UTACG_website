@@ -4,10 +4,6 @@ body, html {
     margin: 0px;
 }
 
-p {
-    font-style: italic;
-    color: #80ccff;
-}
 
 h1 {
     font-size: 4.2em;
@@ -24,15 +20,16 @@ h2 {
     margin-right: 40px;
     color: #a4a4c1;
 }
-ul {
+
+.navbar ul {
     display: inline;
 }
 
-li {
+.navbar li {
     display: inline;
 }
 
-li a {
+.navbar li a {
     margin-right: 20px;
     font-size: 1.45em;
     text-decoration: none;
@@ -53,11 +50,12 @@ hr {
     background: rgba(0,0,0,0.2);
     top: 0;
     height: 50px;
+    width: 90%;
     color: white;
     padding-top: 10px;
     margin-left: 5%;
     margin-right: 5%;
-    position: sticky;
+    position: fixed;
     transition: 200ms linear;
 }
 
@@ -83,7 +81,7 @@ hr {
 .content_header {
     width: 70%;
     margin-left: 5%;
-    padding-top: 90px;
+    padding-top: 60px;
     border-width: 0px;
     border-bottom: 1px solid #d1d1e0;
 }
@@ -104,7 +102,7 @@ hr {
 
 .main-text{
     text-align: right;
-    padding: 200px 0;
+    padding: 20em 0;
 }
 
 .row{
@@ -124,7 +122,54 @@ hr {
 
 .right-bar {
     float: right;
-    width: 25%;
-    text-align: center;
-    margin-top: 2%;
+    width: 16%;
+    height: 70%;
+    text-align: left;
+    margin-top: 5%;
+    margin-right: 4%;
+    border: 4px double black;
+}
+
+.search_bar {
+    border-bottom: 4px double black;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-size: 1.5em;
+    background-color: #f0f0f5;
+}
+
+.search_bar input[type=text] {
+  padding: 6px;
+  border: none;
+  margin: 2%;
+  margin-right: 0px;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+.search_bar button {
+    width: 10%;
+    border: none;
+    background-color: #e0e0eb;
+    margin-right: 4px;
+    padding: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.recent_header {
+    font-size:1.5em;
+    margin-top:10px;
+    font-style: italic;
+    border-width: 0px;
+    border-bottom: 1px solid #d1d1e0;
+    width: 70%;
+    margin-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 4px;
+}
+
+.news_header {
+    font-size: 3em;
+    font-style: italic;
 }
