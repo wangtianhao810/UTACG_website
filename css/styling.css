@@ -108,7 +108,7 @@ hr {
 
 .main-text{
     text-align: right;
-    padding: 20em 0;
+    padding: 30vh 0;
 }
 
 .row{
@@ -147,13 +147,13 @@ hr {
   padding: 6px;
   border: none;
   margin: 2%;
-  margin-right: 0px;
+  margin-right: 0;
+  width: 70%;
   font-size: 20px;
   overflow: hidden;
 }
 
 .search_bar button {
-    width: 10%;
     border: none;
     background-color: #e0e0eb;
     margin-right: 4px;
