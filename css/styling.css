@@ -5,6 +5,11 @@ body, html {
 }
 
 
+p {
+    color: #99d6ff;
+    font-style: italic;
+}
+
 h1 {
     font-size: 4.2em;
     font-style: italic;
@@ -89,6 +94,7 @@ hr {
 .content {
     margin-left: 5%;
     margin-right: 5%;
+    width: 70%;
 }
 
 .img{
@@ -123,7 +129,6 @@ hr {
 .right-bar {
     float: right;
     width: 16%;
-    height: 70%;
     text-align: left;
     margin-top: 5%;
     margin-right: 4%;
@@ -172,4 +177,15 @@ hr {
 .news_header {
     font-size: 3em;
     font-style: italic;
+}
+
+#footer {
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    margin-top: 3em;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    background-color: #000033;
 }
