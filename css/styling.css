@@ -14,15 +14,15 @@ h1 {
     font-size: 4.2em;
     font-style: italic;
     color: #a4a4c1;
-    margin-right: 3em;
-    margin-bottom: 10px;
+    margin-right: 13vw;
+    margin-bottom: 1vh;
 }
 
 h2 {
     font-size: 2em;
     font-style: italic;
     font-family: auto;
-    margin-right: 40px;
+    margin-right: 2vw;
     color: #a4a4c1;
 }
 
@@ -35,18 +35,18 @@ h2 {
 }
 
 .navbar li a {
-    margin-right: 20px;
+    margin-right: 1vw;
     font-size: 1.45em;
     text-decoration: none;
     color: white;
     float: right;
-    padding-top: 5px;
+    padding-top: 0.7vh;
 }
 
 hr {
     width: 70%;
     margin-left: 5%;
-    padding-top: 90px;
+    padding-top: 4vh;
     border-width: 0px;
     border-bottom: 1px solid #d1d1e0;
 }
@@ -54,10 +54,10 @@ hr {
 .navbar {
     background: rgba(0,0,0,0.2);
     top: 0;
-    height: 50px;
+    height: 5%;
     width: 90%;
     color: white;
-    padding-top: 10px;
+    padding-top: 1.5vh;
     margin-left: 5%;
     margin-right: 5%;
     position: fixed;
@@ -66,8 +66,8 @@ hr {
 
 .nav-colored {
     background-color: #00001a;
-    padding-top: 0px;
-    height: 40px;
+    padding-top: 0;
+    height: auto;
     transition: 200ms linear;
 }
 
@@ -77,10 +77,10 @@ hr {
 }
 
 .nav-icon {
-    margin-right: 40px;
+    margin-right: 2vw;
     font-size: 200%;
     font-style: italic;
-    margin-left: 10px;
+    margin-left: 1vw;
 }
 
 .content_header {
@@ -133,6 +133,7 @@ hr {
     margin-top: 5%;
     margin-right: 4%;
     border: 4px double black;
+    border-radius: 5px;
 }
 
 .search_bar {
@@ -148,7 +149,7 @@ hr {
   border: none;
   margin: 2%;
   margin-right: 0;
-  width: 70%;
+  width: 80%;
   font-size: 20px;
   overflow: hidden;
 }
@@ -156,8 +157,8 @@ hr {
 .search_bar button {
     border: none;
     background-color: #e0e0eb;
-    margin-right: 4px;
-    padding: 6px;
+    margin-left: -0.35vw;
+    padding: 6.7px;
     font-size: 20px;
     cursor: pointer;
 }
