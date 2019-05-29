@@ -2,11 +2,19 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+
+        <!-- css stylesheet-->
         <link rel="stylesheet" href="css/styling.css">
+
+        <!-- Font awesome-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
         crossorigin="anonymous">
-        <title>ACG</title>
+
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+
+        <title>Anime, Comic, Gaming Assoication</title>
 
         <script type="text/javascript" src="js/main.js">
         </script>
@@ -17,7 +25,7 @@
         <!-- ACG image -->
         <div class="img">
         <!-- Nav bar -->
-        <nav id="nav" class="navbar">
+        <nav id="nav" class="navbar nav-transparent">
                 <span class="nav-icon">
                     <i class="fas fa-dove"></i>
                     UTACG
@@ -51,7 +59,10 @@
         <div class="right-bar">
             <form class="search_bar">
                 <input type="text" placeholder="Search..">
-                <button type="submit"><i class="fa fa-search"></i></button>
+
+                <label for="search"></label>
+                <button id="search" type="submit"><i class="fa fa-search"></i></button>
+                </label>
             </form>
 
             <div class="recent_header">
@@ -81,6 +92,7 @@
             <span class="news_header">Gallery Collection</span>
 
         </div>
+
         <section class="content">
         </section>
 

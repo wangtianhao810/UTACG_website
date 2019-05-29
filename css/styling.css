@@ -11,17 +11,18 @@ p {
 }
 
 h1 {
-    font-size: 4.2em;
+    font-size: 3.7em;
     font-style: italic;
+    font-family: cursive;
     color: #a4a4c1;
-    margin-right: 13vw;
+    margin-right: 20vw;
     margin-bottom: 1vh;
 }
 
 h2 {
     font-size: 2em;
     font-style: italic;
-    font-family: auto;
+    font-family: cursive;
     margin-right: 2vw;
     color: #a4a4c1;
 }
@@ -52,27 +53,23 @@ hr {
 }
 
 .navbar {
-    background: rgba(0,0,0,0.2);
     top: 0;
-    height: 5%;
     width: 90%;
     color: white;
-    padding-top: 1.5vh;
     margin-left: 5%;
     margin-right: 5%;
     position: fixed;
-    transition: 200ms linear;
 }
 
 .nav-colored {
     background-color: #00001a;
-    padding-top: 0;
-    height: auto;
     transition: 200ms linear;
 }
 
 .nav-transparent{
-    background-color: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     transition: background-color 200ms linear;
 }
 
@@ -80,6 +77,7 @@ hr {
     margin-right: 2vw;
     font-size: 200%;
     font-style: italic;
+    font-family: 'Lobster', cursive;
     margin-left: 1vw;
 }
 
@@ -128,7 +126,7 @@ hr {
 
 .right-bar {
     float: right;
-    width: 16%;
+    width: 18%;
     text-align: left;
     margin-top: 5%;
     margin-right: 4%;
@@ -149,7 +147,7 @@ hr {
   border: none;
   margin: 2%;
   margin-right: 0;
-  width: 80%;
+  width: 70%;
   font-size: 20px;
   overflow: hidden;
 }
